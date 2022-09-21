@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "async": "^3.2.4",
+    "azure-devops-node-api": "^11.2.0",
+    "chalk": "^5.0.1",
+    "find-in-files": "^0.5.0",
+    "fs": "^0.0.1-security",
+    "replace-in-files": "^3.0.0"
+  },
+  "name": "script",
+  "version": "1.0.0",
+  "main": "azure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,36 @@
+{
+  "name": "find-in-files",
+  "version": "0.5.0",
+  "description": "A simple tool to search text patterns across multiple files",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaesetoast/find-in-files.git"
+  },
+  "keywords": [
+    "search",
+    "find",
+    "files"
+  ],
+  "author": "Philipp Nowinski <philipp@nowinski.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaesetoast/find-in-files/issues"
+  },
+  "homepage": "https://github.com/kaesetoast/find-in-files",
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "chai-as-promised": "^6.0.0",
+    "coveralls": "^2.10.1",
+    "istanbul": "^0.2.11",
+    "mocha": "^1.20.1",
+    "mocha-lcov-reporter": "0.0.1"
+  },
+  "dependencies": {
+    "find": "^0.1.5",
+    "q": "^1.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "find" 
+  , "version": "0.1.7"
+  , "description": "Find files or directories by name"
+  , "url": "https://github.com/yuanchuan/find"
+  , "author": "yuanchuan <yuanchuan23@gmail.com> (http://yuanchuan.name)"
+  , "main": "./index.js"
+  , "dependencies": {
+      "traverse-chain": "~0.1.0"
+    }
+  , "keywords": ["find", "findfile", "search", "files"]
+  , "repository": {
+        "type": "git"
+      , "url": "git://github.com/yuanchuan/find.git"
+    }
+}
