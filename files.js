@@ -1,5 +1,5 @@
 
-const targetFiles = [
+const targetServices = [
     "zubizulf-koctas-integration",
     "zubizulf-label-api",
     "zubizulf-legacy-external-loyalty-integration",
@@ -17,4 +17,4 @@ const targetFiles = [
     "zubizulf-scenario-api",
 ]
 
-export { targetFiles };
+export { targetServices };
